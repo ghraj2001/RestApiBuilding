@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-export const UserModel = mongoose.model('new', UserSchema);
+export const UserModel = mongoose.model('USER', UserSchema);
 
 // User Actions
 export const getUsers = () => UserModel.find();
